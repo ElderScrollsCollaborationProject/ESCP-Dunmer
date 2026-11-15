@@ -44,4 +44,27 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Mashed's Ashlands</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/FactionDef[defName="ESCP_Faction_House_Redoran" or defName="ESCP_Faction_House_Telvanni"]/modExtensions/li[@Class="ESCP.Factions.FactionExtension_NamedSettlement"]/allowedBiomes</xpath>
+            <value>
+                            <li>Mashed_Ashlands_Ashlands</li>
+                            <li>Mashed_Ashlands_DustplainAshlands</li>
+                            <li>Mashed_Ashlands_GrazelandAshlands</li>
+                            <li>Mashed_Ashlands_HighlandAshlands</li>
+                            <li>Mashed_Ashlands_SwampAshlands</li>
+                            <li>Mashed_Ashlands_ForestAshlands</li>
+                            <li>Mashed_Ashlands_MarshAshlands</li>
+                            <li>Mashed_Ashlands_MeadowAshlands</li>
+                            <li>Mashed_Ashlands_VolcanicAshlands</li>
+                            <li>Mashed_Ashlands_VolcanicBadlandAshlands</li>
+                            <li>Mashed_Ashlands_VolcanicBasaltHillsAshlands</li>
+                            <li>Mashed_Ashlands_VolcanicGroveAshlands</li>
+            </value>
+        </match>
+    </Operation>
+
 </Patch>
