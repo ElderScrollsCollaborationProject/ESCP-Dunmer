@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_House_Redoran</defName>
+        <label>House Redoran</label>
+        <description>The warrior house of Morrowind. While Telvanni wizards argued and Hlaalu merchants made deals, Redoran held the walls, and that has been more or less the arrangement ever since. They are slow to make a promise and notoriously unwilling to break one, and their councilors in Blacklight have the patience of people who expect to be attacked.</description>
+        <colorSpectrum>
+            <li>(0.55, 0.15, 0.12)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Dunmer</pawnSingular>
+        <pawnsPlural>Dunmer</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Archmaster</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>House Redoran</fixedName>
+        <allowedCultures>
+            <li>ESCP_Culture_Dunmer</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_Dunmer</li>
+        </royalTitleTags>
+        <royalFavorLabel>House Honor</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Tribunal</ideoName>
+        <ideoDescription>House Redoran kept faith with the Tribunal long after it stopped being comfortable to do so. Almalexia, Vivec and Sotha Sil are gone from the world, and the New Temple has made its peace with older Daedric teachers, but the duty remains the same. Honor the family. Guard the pilgrim. Pay your debts to the dead.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Almalexia</name><type>Mother Morrowind, Face of Mercy</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>Vivec</name><type>Warrior-Poet of the Tribunal</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>Sotha Sil</name><type>the Clockwork God</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>Boethiah</name><type>Prince of Plots and teacher of the Chimer</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityBoethiah</iconPath>
+            </li>
+            <li>
+                <nameType><name>Mephala</name><type>Webspinner and Anticipation</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityMephala</iconPath>
+            </li>
+            <li>
+                <nameType><name>Azura</name><type>Mother of the Rose, who cursed the Dunmer</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityAzura</iconPath>
+            </li>
+            <li>
+                <nameType><name>Nerevar</name><type>the Moon-and-Star who will return</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Dunmer</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_Reclamations</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_Dunmer_Trader</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_Dunmer_Trader</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>ESCP_Caravan_Dunmer_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-20~60</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dunmer_Melee>10</ESCP_Pawnkind_Dunmer_Melee>
+                    <ESCP_Pawnkind_Dunmer_Ranged>7</ESCP_Pawnkind_Dunmer_Ranged>
+                    <ESCP_Pawnkind_Dunmer_Mage>4</ESCP_Pawnkind_Dunmer_Mage>
+                    <ESCP_Pawnkind_Dunmer_Captain>3</ESCP_Pawnkind_Dunmer_Captain>
+                    <ESCP_Pawnkind_Dunmer_Elite>2</ESCP_Pawnkind_Dunmer_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dunmer_Citizen>15</ESCP_Pawnkind_Dunmer_Citizen>
+                    <ESCP_Pawnkind_Dunmer_Merchant>6</ESCP_Pawnkind_Dunmer_Merchant>
+                    <ESCP_Pawnkind_Dunmer_Noble>4</ESCP_Pawnkind_Dunmer_Noble>
+                    <ESCP_Pawnkind_Dunmer_Mage>3</ESCP_Pawnkind_Dunmer_Mage>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_Dunmer_Trader>1</ESCP_Pawnkind_Dunmer_Trader>
+                    <ESCP_Pawnkind_Dunmer_Quartermaster>1</ESCP_Pawnkind_Dunmer_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_Dunmer_Melee>8</ESCP_Pawnkind_Dunmer_Melee>
+                    <ESCP_Pawnkind_Dunmer_Ranged>5</ESCP_Pawnkind_Dunmer_Ranged>
+                    <ESCP_Pawnkind_Dunmer_Elite>1</ESCP_Pawnkind_Dunmer_Elite>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Dunmer_Citizen>8</ESCP_Pawnkind_Dunmer_Citizen>
+                    <ESCP_Pawnkind_Dunmer_Melee>10</ESCP_Pawnkind_Dunmer_Melee>
+                    <ESCP_Pawnkind_Dunmer_Ranged>8</ESCP_Pawnkind_Dunmer_Ranged>
+                    <ESCP_Pawnkind_Dunmer_Mage>4</ESCP_Pawnkind_Dunmer_Mage>
+                    <ESCP_Pawnkind_Dunmer_Elite>2</ESCP_Pawnkind_Dunmer_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_GreatHouse</li>
+                </factionTags>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>House Redoran</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

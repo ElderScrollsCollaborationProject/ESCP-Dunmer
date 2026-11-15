@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_HouseTelvanni</defName>
+        <label>House Telvanni ranks</label>
+        <rootTier>ESCP_Rank_HouseTelvanni_Hireling</rootTier>
+        <owningFaction>ESCP_Faction_House_Telvanni</owningFaction>
+        <collectiveNoun>House Telvanni</collectiveNoun>
+        <drillLabel>Destruction Practice</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Pore Over Grimoires</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Robes</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Tend the Mushrooms...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>Power Is Its Own Reward!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Attend Me</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Away With You</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_HouseTelvanni_Hireling</defName>
+        <label>hireling</label>
+        <description>Fetches and carries for a Telvanni wizard and hopes not to be noticed.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_HouseTelvanni_Mouth</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_HouseTelvanni_Mouth</defName>
+        <label>mouth</label>
+        <description>Speaks for a Telvanni lord who cannot be bothered to speak.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>5</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>400</Intellectual>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_HouseTelvanni_Spellwright</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_HouseTelvanni_Spellwright</defName>
+        <label>spellwright</label>
+        <description>Has shown enough talent to be taught real magic.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>8</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>500</Intellectual>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_HouseTelvanni_Wizard</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_HouseTelvanni_Wizard</defName>
+        <label>wizard</label>
+        <description>A Telvanni wizard in their own right, with a tower in mind.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>11</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>600</Intellectual>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_HouseTelvanni_Master</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_HouseTelvanni_Master</defName>
+        <label>master</label>
+        <description>Grows a tower of their own and answers to almost no one.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>14</Intellectual>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Intellectual>700</Intellectual>
+            <Melee>350</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

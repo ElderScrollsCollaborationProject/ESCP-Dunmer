@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Dunmer</defName>
+        <label>Dunmer</label>
+        <description>The culture of Morrowind's Great Houses, shaped by ash, clan duty and the thin hospitality of people who have been invaded before. Family tombs sit under family homes, and strangers are expected to mind their manners around both.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Dunmer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Dunmer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>BeardShort</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Dunmer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Dunmer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Dunmer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Dunmer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Dunmer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Dunmer</defName>
+        <label>Dunmer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Dunmer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Dunmer_Names_Male] [ESCP_Dunmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Dunmer_Names_Male->Names/ESCP_Dunmer_Names_Male</li>
+                <li>ESCP_Dunmer_Names_Last->Names/ESCP_Dunmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Dunmer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Dunmer_Names_Female] [ESCP_Dunmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Dunmer_Names_Female->Names/ESCP_Dunmer_Names_Female</li>
+                <li>ESCP_Dunmer_Names_Last->Names/ESCP_Dunmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Dunmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Archmaster</li>
+                <li>r_leaderTitle->Grandmaster</li>
+                <li>r_leaderTitle->Hortator</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Dunmer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Ancestral</li>
+                <li>hyphenPrefix->Velothi</li>
+                <li>hyphenPrefix->Ash</li>
+                <li>hyphenPrefix->Tribunal</li>
+                <li>r_ideoName->The Tribunal</li>
+                <li>r_ideoName->The New Temple</li>
+                <li>r_ideoName->The Reclamations</li>
+                <li>r_ideoName->Ancestor Reverence</li>
+                <li>r_ideoAdjective->Velothi</li>
+                <li>r_ideoAdjective->Ancestral</li>
+                <li>r_memberName->Votary</li>
+                <li>r_memberName->Pilgrim</li>
+                <li>r_memberName->Penitent</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Dunmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Almalexia</li>
+                <li>r_deityName->Vivec</li>
+                <li>r_deityName->Sotha Sil</li>
+                <li>r_deityName->Boethiah</li>
+                <li>r_deityName->Mephala</li>
+                <li>r_deityName->Azura</li>
+                <li>r_deityName->Nerevar</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Dunmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->Mother Morrowind, Face of Mercy</li>
+                <li>r_deityType->Warrior-Poet of the Tribunal</li>
+                <li>r_deityType->the Clockwork God</li>
+                <li>r_deityType->Prince of Plots and teacher of the Chimer</li>
+                <li>r_deityType->Webspinner and Anticipation</li>
+                <li>r_deityType->Mother of the Rose, who cursed the Dunmer</li>
+                <li>r_deityType->the Moon-and-Star who will return</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Dunmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Pilgrim's Road</li>
+                <li>festivalName->Day of Nerevar</li>
+                <li>festivalName->Tribunal Remembrance</li>
+                <li>festivalName->The Ashfall Vigil</li>
+                <li>festivalName->Feast of the Ancestors</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

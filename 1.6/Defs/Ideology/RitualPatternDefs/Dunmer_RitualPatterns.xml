@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RitualPatternDef>
+        <defName>ESCP_DunmerSeance</defName>
+        <nameMaker>ESCP_DunmerNamerRitualSeance</nameMaker>
+        <canStartAnytime>true</canStartAnytime>
+        <shortDescOverride>ancestor seance</shortDescOverride>
+        <descOverride>A gathering at the family tomb where the living speak with their dead.</descOverride>
+        <ritualExpectedDesc>Every year on {DATE}, {MEMBERS} hold {RITUAL_labelDef}.</ritualExpectedDesc>
+        <ritualObligationTargetFilter>ESCP_FilledDunmerGrave</ritualObligationTargetFilter>
+        <ritualBehavior>ESCP_DunmerSeance</ritualBehavior>
+        <ritualOutcomeEffect>ESCP_AttendedDunmerSeance</ritualOutcomeEffect>
+        <ritualObligationTriggers>
+            <li Class="RitualObligationTrigger_DateProperties">
+                <mustBePlayerIdeo>true</mustBePlayerIdeo>
+            </li>
+        </ritualObligationTriggers>
+        <tags>
+            <li>CelebratedDate</li>
+        </tags>
+    </RitualPatternDef>
+
+</Defs>

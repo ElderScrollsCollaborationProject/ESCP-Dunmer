@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Ashland_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Ashland_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Ashlander foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>[PAWN_nameDef] was traded to a Redoran family after a hard winter on the Ashlands. [PAWN_pronoun] never quite stopped sleeping on the floor, and could still find water in places the family swore had none.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Pilgrim_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Pilgrim_Child</identifier>
+        <slot>Childhood</slot>
+        <title>pilgrim's child</title>
+        <titleShort>Pilgrim</titleShort>
+        <description>[PAWN_nameDef] walked the Seven Graces behind devout parents, carrying the supplies and learning the shrine prayers by repetition. Few childhood memories of [PAWN_possessive] take place under a roof.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Guar_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Guar_Child</identifier>
+        <slot>Childhood</slot>
+        <title>guar herder</title>
+        <titleShort>Herder</titleShort>
+        <description>Guar are stubborn and bite without warning, and [PAWN_nameDef] looked after thirty of them before reaching adulthood. Dealing with people came later and seemed like an easier version of the same job.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Hearth_Guard</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Hearth_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>hearth guard</title>
+        <titleShort>Guard</titleShort>
+        <description>[PAWN_nameDef] stood duty at a councilor's door for most of a century and drew steel more often than the councilor ever admitted. Bonemold armor still feels lighter to [PAWN_objective] than regular clothes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Buoyant</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Buoyant</identifier>
+        <slot>Adulthood</slot>
+        <title>Ashlander scout</title>
+        <titleShort>Scout</titleShort>
+        <description>[PAWN_nameDef] guided House patrols through country that kills the careless, reading ash drifts the way others read a map. [PAWN_pronoun] has a poor opinion of map makers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Animals>2</Animals>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ordinator</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ordinator</identifier>
+        <slot>Adulthood</slot>
+        <title>lapsed Ordinator</title>
+        <titleShort>Ordinator</titleShort>
+        <description>The mask came off when the Temple changed its doctrines and [PAWN_nameDef] could not. There is still a hard training in [PAWN_possessive] shoulders, and [PAWN_pronoun] still tends to watch people's hands.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Intellectual>1</Intellectual>
+            <Social>-1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Healer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>Temple healer</title>
+        <titleShort>Healer</titleShort>
+        <description>[PAWN_nameDef] ran a sick ward in Ald'ruhn during blight years, which taught [PAWN_objective] what can be cured, what cannot, and how to tell a family the difference.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Telvanni</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Telvanni</identifier>
+        <slot>Adulthood</slot>
+        <title>Telvanni apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>[PAWN_nameDef] grew tired of being a Telvanni master's most disposable possession and left in the night, along with several of the master's books. The House has not forgotten either detail.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>ManualDumb</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Saltrice</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Saltrice</identifier>
+        <slot>Adulthood</slot>
+        <title>saltrice farmer</title>
+        <titleShort>Farmer</titleShort>
+        <description>[PAWN_nameDef] grew saltrice on a House plantation until the ash fell too thickly to clear. Everything [PAWN_pronoun] owned fit on one guar, and the guar complained.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Construction>1</Construction>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Bookkeeper</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Bookkeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Hlaalu bookkeeper</title>
+        <titleShort>Bookkeeper</titleShort>
+        <description>Nobody in the district liked House Hlaalu, but everyone needed one of its clerks. [PAWN_nameDef] did the accounts for half of Blacklight and knew exactly who owed what to whom, which eventually became a problem.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Ash_Refugee_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Ash_Refugee_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Red Year refugee</title>
+        <titleShort>Refugee</titleShort>
+        <description>[PAWN_nameDef] came to Solstheim in the hold of an overloaded ship, with Vvardenfell burning behind it. Few of the children on board ever spoke about that crossing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Netch_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Netch_Child</identifier>
+        <slot>Childhood</slot>
+        <title>netch herder's child</title>
+        <titleShort>Herder's</titleShort>
+        <description>On the Ascadian Isles [PAWN_nameDef] walked netch from pasture to pasture, keeping well clear of the tentacles. There were few better ways to learn patience.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Scout_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Scout_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Ashlander whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>Born to an Urshilaku camp, [PAWN_nameDef] could follow a guar trail through an ash storm before [PAWN_pronoun] could read a word. The tribe saw no reason to teach the second.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Ancestor_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Ancestor_Child</identifier>
+        <slot>Childhood</slot>
+        <title>tomb sweeper</title>
+        <titleShort>Sweeper</titleShort>
+        <description>Every family has dead to look after. [PAWN_nameDef] swept the urns and learned the names, and never quite stopped feeling watched.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Slave_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Slave_Child</identifier>
+        <slot>Childhood</slot>
+        <title>kitchen slave</title>
+        <titleShort>Slave</titleShort>
+        <description>[PAWN_nameDef] was born owned, in the kitchens of a Hlaalu estate, until the Argonians came through in the uprising and the question of ownership became rather more complicated.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Tribunal_Novice</defName>
+        <identifier>ESCP_Backstory_Dunmer_Tribunal_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Tribunal novice</title>
+        <titleShort>Novice</titleShort>
+        <description>[PAWN_nameDef] grew up in Almalexia's temple school, memorizing the sermons of a goddess who stopped answering before [PAWN_pronoun] finished the course.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Temple_Ordinator</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Temple_Ordinator</identifier>
+        <slot>Adulthood</slot>
+        <title>Ordinator</title>
+        <titleShort>Ordinator</titleShort>
+        <description>Indoril armor, a golden mask and a mandate from a Temple that had lost its gods: [PAWN_nameDef] kept the oaths anyway, and never decided whether that was faith or habit.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Buoyant_Armiger</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Buoyant_Armiger</identifier>
+        <slot>Adulthood</slot>
+        <title>Buoyant Armiger</title>
+        <titleShort>Armiger</titleShort>
+        <description>The Armigers were expected to be quick, polite and slightly insufferable, in the manner of Vivec himself. [PAWN_nameDef] managed all three.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Morag_Tong</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Morag_Tong</identifier>
+        <slot>Adulthood</slot>
+        <title>Morag Tong assassin</title>
+        <titleShort>Tong</titleShort>
+        <description>[PAWN_nameDef] carried legal writs of execution and delivered them in person. The Tong is licensed, honorable and very clear on the distinction between itself and murderers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ash_Hunter</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ash_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>cliff racer hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>[PAWN_nameDef] was paid by the head to shoot cliff racers off the trade roads. It is a matter of public record that there were always more.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Redoran_Guard</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Redoran_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Redoran watchman</title>
+        <titleShort>Watchman</titleShort>
+        <description>Duty came before everything in Blacklight, and [PAWN_nameDef] stood the night watch for twenty years without once asking why.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Sellsword</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Sellsword</identifier>
+        <slot>Adulthood</slot>
+        <title>Solstheim sellsword</title>
+        <titleShort>Sellsword</titleShort>
+        <description>After the Red Year nobody could pay in anything but ash and promises, so [PAWN_nameDef] took those and went to Raven Rock.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mouth</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mouth</identifier>
+        <slot>Adulthood</slot>
+        <title>Telvanni Mouth</title>
+        <titleShort>Mouth</titleShort>
+        <description>[PAWN_nameDef] sat on the council in place of a wizard who could not be bothered. It is a job that requires tact and frequent changes of address.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Conjurer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Conjurer</identifier>
+        <slot>Adulthood</slot>
+        <title>Telvanni conjurer</title>
+        <titleShort>Conjurer</titleShort>
+        <description>[PAWN_nameDef] apprenticed under a master who treated every student as a spare part. Surviving was the graduation exam.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mushroom</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mushroom</identifier>
+        <slot>Adulthood</slot>
+        <title>tower grower</title>
+        <titleShort>Grower</titleShort>
+        <description>A Telvanni tower has to be grown from a single spore, coaxed with spells and years of tending. [PAWN_nameDef] raised three of them and got no credit for any.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Daedra_Priest</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Daedra_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Reclamation apostate</title>
+        <titleShort>Apostate</titleShort>
+        <description>[PAWN_nameDef] preached Azura and Boethiah in the back rooms of Mournhold while the Temple was looking the other way. It stopped looking the other way.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Alchemist</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>kwama egg alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>[PAWN_nameDef] worked the eggmines outside Balmora, buying from miners and selling to wizards. Most of the potions even did what the label said.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Plants>2</Plants>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Eggminer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Eggminer</identifier>
+        <slot>Adulthood</slot>
+        <title>eggminer</title>
+        <titleShort>Eggminer</titleShort>
+        <description>[PAWN_nameDef] spent a working life in the kwama tunnels with a lantern and a basket. The workers are peaceful unless you startle them. Then they are not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>7</Mining>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Scrib</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Scrib</identifier>
+        <slot>Adulthood</slot>
+        <title>Hlaalu factor</title>
+        <titleShort>Factor</titleShort>
+        <description>House Hlaalu will sell anything to anyone, and [PAWN_nameDef] kept the ledgers proving it. Some of those ledgers still exist, which worries a number of people.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Silt_Captain</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Silt_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>silt strider caravaner</title>
+        <titleShort>Caravaner</titleShort>
+        <description>[PAWN_nameDef] drove a silt strider between Seyda Neen and Balmora, poking its organs with a stick. It is said to be the ugliest possible way to make an honest living.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ashpit</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ashpit</identifier>
+        <slot>Adulthood</slot>
+        <title>ash farmer</title>
+        <titleShort>Ash farmer</titleShort>
+        <description>Nothing is meant to grow in the ash of Vvardenfell. [PAWN_nameDef] grew saltrice in it anyway, and has very little patience for gardeners who complain about their soil.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Bonemold</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Bonemold</identifier>
+        <slot>Adulthood</slot>
+        <title>bonemold armorer</title>
+        <titleShort>Armorer</titleShort>
+        <description>It takes resin, patience and the bones of something large. [PAWN_nameDef] has shaped armor in the traditional manner for decades and considers steel a passing fad.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>8</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Balmora_Street_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Balmora_Street_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Balmora street child</title>
+        <titleShort>Street child</titleShort>
+        <description>The Odai ran low in summer and that was when [PAWN_nameDef] searched the mud for dropped coins. Balmora's guards were not interested in the competition.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Aldruhn_Shell_Climber</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Aldruhn_Shell_Climber</identifier>
+        <slot>Childhood</slot>
+        <title>Ald'ruhn shell climber</title>
+        <titleShort>Climber</titleShort>
+        <description>Ald'ruhn is built inside the shell of a dead emperor crab, and there are many ways up it. [PAWN_nameDef] knew them all and was caught on only a few.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Sadrith_Mora_Mushroom_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Sadrith_Mora_Mushroom_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Sadrith Mora mushroom child</title>
+        <titleShort>Mushroom child</titleShort>
+        <description>Children in Telvanni towers grow up climbing fungus that was asked politely to become a staircase. [PAWN_nameDef] thought all houses worked like this.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Ash_Storm_Survivor</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Ash_Storm_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>ash storm survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>A storm off Red Mountain closed over the road for three days. [PAWN_nameDef] walked out with a cough and a clear memory of the ones who did not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Ancestor_Shrine_Keeper</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Ancestor_Shrine_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>ancestor shrine keeper</title>
+        <titleShort>Shrine keeper</titleShort>
+        <description>Each night, [PAWN_nameDef] lit a candle and passed along the household news to the bones of a grandmother. She had opinions, or at least everyone acted as if she did.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Urshilaku_Yurt_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Urshilaku_Yurt_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Urshilaku yurt child</title>
+        <titleShort>Yurt child</titleShort>
+        <description>The Urshilaku moved with the herds and considered houses a kind of illness. [PAWN_nameDef] grew up under felted hide, with a wise woman always watching.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Zainab_Traders_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Zainab_Traders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Zainab trader's child</title>
+        <titleShort>Trader's child</titleShort>
+        <description>The Zainab sold to anyone, even villagers. [PAWN_nameDef] learned to haggle in two languages before learning why the other tribes looked down on it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Erabenimsun_Whelp</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Erabenimsun_Whelp</identifier>
+        <slot>Childhood</slot>
+        <title>Erabenimsun whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>Among the Erabenimsun, disputes went to the strongest and everyone knew it. [PAWN_nameDef] started settling disputes at age seven with a stick.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Ahemmusa_Herders_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Ahemmusa_Herders_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Ahemmusa herder's child</title>
+        <titleShort>Herder's child</titleShort>
+        <description>Guar calves need watching and the Ahemmusa kept many of them. [PAWN_nameDef] once slept out on the Grazelands for a week to find just one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Blacklight_Dockhands_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Blacklight_Dockhands_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Blacklight dockhand's child</title>
+        <titleShort>Dock child</titleShort>
+        <description>Slave ships, spice ships and ships with no declared cargo all tied up at Blacklight. [PAWN_nameDef] ran between them with hot rice and a sharp ear.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Mournhold_Temple_Page</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Mournhold_Temple_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Mournhold temple page</title>
+        <titleShort>Page</titleShort>
+        <description>Pilgrims crowd Mournhold for one reason or another. As a page, [PAWN_nameDef] led them to Almalexia's temple and pointed out where the good dumplings were.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Narsis_Scribes_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Narsis_Scribes_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Narsis scribe's child</title>
+        <titleShort>Narsis</titleShort>
+        <description>Narsis has more bookkeepers per household than anywhere else in Morrowind. [PAWN_nameDef]'s bedtime stories often concerned a dishonest contract and how it was found out.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Vivec_Canton_Runner</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Vivec_Canton_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>Vivec canton runner</title>
+        <titleShort>Runner</titleShort>
+        <description>A canton of Vivec is a world stacked on itself, and only children really knew the shortcuts. [PAWN_nameDef] carried notes between floors for a copper a trip.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>1</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Kwama_Queens_Attendant</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Kwama_Queens_Attendant</identifier>
+        <slot>Childhood</slot>
+        <title>kwama queen's attendant</title>
+        <titleShort>Attendant</titleShort>
+        <description>Scribs are tame if treated fairly, and they will warn of trouble in the deep tunnels. [PAWN_nameDef] grew up in an egg mine, feeding them and listening.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Mining>2</Mining>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Scrib_Jelly_Thief</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Scrib_Jelly_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>scrib jelly thief</title>
+        <titleShort>Thief</titleShort>
+        <description>Scrib jelly fetched a fair price, and [PAWN_nameDef] knew which miners slept soundly. Nobody had got round to noticing the jars were gone until much later.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Dres_Plantation_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Dres_Plantation_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Dres plantation child</title>
+        <titleShort>Plantation</titleShort>
+        <description>In Dres country, the fields are saltrice and the hands are enslaved. [PAWN_nameDef] grew up in the big house and understood it far too late.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Escaped_Slaves_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Escaped_Slaves_Child</identifier>
+        <slot>Childhood</slot>
+        <title>escaped slave's child</title>
+        <titleShort>Runaway's child</titleShort>
+        <description>An Argonian nurse carried [PAWN_nameDef] north one winter. Why she took a Dunmer child along is a thing no one living can now explain.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>1</Shooting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Dagoth_Survivors_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Dagoth_Survivors_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Dagoth survivor's child</title>
+        <titleShort>Quiet child</titleShort>
+        <description>Nobody in the village spoke about the Sixth House, and nobody spoke about what happened to [PAWN_nameDef]'s parents. The child learned to stop asking.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Red_Mountain_Watcher</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Red_Mountain_Watcher</identifier>
+        <slot>Childhood</slot>
+        <title>Red Mountain watcher</title>
+        <titleShort>Watcher</titleShort>
+        <description>Each morning, the first job was to look south for smoke. [PAWN_nameDef] did that job at age six and went on doing it well after it stopped helping.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Raven_Rock_Ash_Shoveler</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Raven_Rock_Ash_Shoveler</identifier>
+        <slot>Childhood</slot>
+        <title>Raven Rock ash shoveler</title>
+        <titleShort>Shoveler</titleShort>
+        <description>Raven Rock's ash needs clearing away almost daily. A young [PAWN_nameDef] was given a broad shovel and told it would build character.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>3</Mining>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Solstheim_Born</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Solstheim_Born</identifier>
+        <slot>Childhood</slot>
+        <title>Solstheim-born</title>
+        <titleShort>Solstheim</titleShort>
+        <description>Cold, ash, and Nords in the same place: [PAWN_nameDef] grew up in the refugee colony where they all met. Many Dunmer children there never saw Morrowind at all.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Redoran_Cadet</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Redoran_Cadet</identifier>
+        <slot>Childhood</slot>
+        <title>Redoran cadet</title>
+        <titleShort>Cadet</titleShort>
+        <description>Duty was the first word, and honor was the second. Anything else a young [PAWN_nameDef] wanted to say had to wait until the elders were finished.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Telvanni_Servants_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Telvanni_Servants_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Telvanni servant's child</title>
+        <titleShort>Servant's child</titleShort>
+        <description>Mages often forget that servants can read. [PAWN_nameDef] dusted a private library for years and retained far more than the owner would have allowed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Hlaalu_Factors_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Hlaalu_Factors_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Hlaalu factor's child</title>
+        <titleShort>Factor's child</titleShort>
+        <description>Every family dinner ended up as a negotiation. By nine, [PAWN_nameDef] could bargain a sibling out of dessert and leave them feeling grateful.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Indoril_Novice</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Indoril_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Indoril novice</title>
+        <titleShort>Novice</titleShort>
+        <description>Being of the Indoril meant strict lessons on Almalexia, duty and the correct way of looking down on Hlaalu. [PAWN_nameDef] passed them all with marked distaste.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Nix_Hound_Keeper</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Nix_Hound_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>nix-hound keeper</title>
+        <titleShort>Hound keeper</titleShort>
+        <description>Nix-hounds bite, and then they forgive. [PAWN_nameDef] raised a litter of them behind the family's hut and still has the scars from the favorites.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Shalk_Catcher</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Shalk_Catcher</identifier>
+        <slot>Childhood</slot>
+        <title>shalk catcher</title>
+        <titleShort>Shalk catcher</titleShort>
+        <description>Shalk resin paid better than farming for those small enough to go down the burrows. [PAWN_nameDef] stayed small enough for an unusually long time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Guar_Groom</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Guar_Groom</identifier>
+        <slot>Childhood</slot>
+        <title>guar groom</title>
+        <titleShort>Groom</titleShort>
+        <description>Rich Dunmer pay for clean guar on festival days. [PAWN_nameDef] brushed scales in the back lot of a Balmora inn and heard all the rumors first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Trama_Root_Gatherer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Trama_Root_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>trama root gatherer</title>
+        <titleShort>Gatherer</titleShort>
+        <description>Trama grows along the edge of the Ashlands, and it fights back. [PAWN_nameDef] went out with a sack, heavy gloves and a healthy fear of cliff racers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Ministry_Of_Truth_Pilgrim</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Ministry_Of_Truth_Pilgrim</identifier>
+        <slot>Childhood</slot>
+        <title>Ministry of Truth pilgrim</title>
+        <titleShort>Pilgrim</titleShort>
+        <description>[PAWN_nameDef] was carried to see the moon that Vivec held still above his own city. At that age, it mostly looked like a big rock.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Dissident_Priests_Ward</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Dissident_Priests_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>Dissident Priest's ward</title>
+        <titleShort>Ward</titleShort>
+        <description>The ward's guardian kept forbidden texts behind the flour and went missing one evening. [PAWN_nameDef] kept the flour jar and never told a soul.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Argonian_Invasion_Refugee</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Argonian_Invasion_Refugee</identifier>
+        <slot>Childhood</slot>
+        <title>Argonian invasion refugee</title>
+        <titleShort>Refugee</titleShort>
+        <description>Water and arrows came up from the south, and the family went north with a single cart. [PAWN_nameDef] walked behind it for most of Morrowind.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>1</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Ghost_Touched_Child</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Ghost_Touched_Child</identifier>
+        <slot>Childhood</slot>
+        <title>ghost-touched child</title>
+        <titleShort>Ghost-touched</titleShort>
+        <description>The family tomb opened to [PAWN_nameDef] one night in a dream, or something near enough. Elders watched the child closely after that and started saying grace twice.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Netch_Leather_Cutter</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Netch_Leather_Cutter</identifier>
+        <slot>Childhood</slot>
+        <title>netch leather cutter</title>
+        <titleShort>Cutter</titleShort>
+        <description>Boiled netch stinks in a way that gets into the skin. [PAWN_nameDef] cut hides in a yard downwind of everyone and got used to eating alone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Azuras_Coast_Fisher</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Azuras_Coast_Fisher</identifier>
+        <slot>Childhood</slot>
+        <title>Azura's Coast fisher</title>
+        <titleShort>Fisher</titleShort>
+        <description>Slaughterfish come in closer to the rocks on warm nights. [PAWN_nameDef] speared them from a ledge and lost only one fingertip for all that time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Tribunal_Hymn_Singer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Tribunal_Hymn_Singer</identifier>
+        <slot>Childhood</slot>
+        <title>Tribunal hymn singer</title>
+        <titleShort>Singer</titleShort>
+        <description>Hymns to the Three were the first thing [PAWN_nameDef] sang and the first thing later forgotten. The tune still surfaces at odd moments.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Tel_Vos_Courier</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Tel_Vos_Courier</identifier>
+        <slot>Childhood</slot>
+        <title>Tel Vos courier</title>
+        <titleShort>Courier</titleShort>
+        <description>Going between Telvanni towers was risky, as most had no doors. A rope and a straight face got [PAWN_nameDef] up the ones with no levitating servant to help.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Plants>1</Plants>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Blighted_Caravan_Orphan</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Blighted_Caravan_Orphan</identifier>
+        <slot>Childhood</slot>
+        <title>Blighted caravan orphan</title>
+        <titleShort>Orphan</titleShort>
+        <description>[PAWN_possessive] caravan took the blight near Maar Gan. A healer found [PAWN_nameDef] sitting beside the guar, still feeding them, and did not need telling.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Great_House_Hostage</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Great_House_Hostage</identifier>
+        <slot>Childhood</slot>
+        <title>Great House hostage</title>
+        <titleShort>Hostage</titleShort>
+        <description>[PAWN_nameDef] was traded to a rival house as a guarantee of a contract, in fine clothes and fair comfort. The contract held, luckily, for nine years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Muckspunge_Picker</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Muckspunge_Picker</identifier>
+        <slot>Childhood</slot>
+        <title>muckspunge picker</title>
+        <titleShort>Picker</titleShort>
+        <description>Muck comes up to the knee at low tide in Bitter Coast. Children have the right weight for it, so [PAWN_nameDef] picked muckspunge until growing too heavy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Child_Bonemenders_Apprentice</defName>
+        <identifier>ESCP_Backstory_Dunmer_Child_Bonemenders_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>bonemender's apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>Bonemold is glue and ground bone, and a bonemender works with both. At eight, [PAWN_nameDef] could already set a broken arm or a broken pauldron.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Redoran_Sword_Sister</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Redoran_Sword_Sister</identifier>
+        <slot>Adulthood</slot>
+        <title>Redoran sword-sister</title>
+        <titleShort>Sword</titleShort>
+        <description>House Redoran does not care about pedigree on the wall at Ald'ruhn. [PAWN_nameDef] stood there for years, keeping faith and sharpening a blade that needed it often.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Hlaalu_Hired_Guard</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Hlaalu_Hired_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Hlaalu hired guard</title>
+        <titleShort>Hired guard</titleShort>
+        <description>Contracts in Balmora came with a guard clause, and [PAWN_nameDef] was the clause. Payment was fair and the job's main risk was boredom.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Dres_Slave_Hunter</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Dres_Slave_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Dres slave hunter</title>
+        <titleShort>Slave hunter</titleShort>
+        <description>Runaways head for the Black Marsh border. [PAWN_nameDef] was very good at getting there first and sleeps well, or at least says so.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Camonna_Tong_Enforcer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Camonna_Tong_Enforcer</identifier>
+        <slot>Adulthood</slot>
+        <title>Camonna Tong enforcer</title>
+        <titleShort>Enforcer</titleShort>
+        <description>Outlanders in Vvardenfell were bad for business and worse for the old ways. [PAWN_nameDef] explained this to them with a club, in a very traditional manner.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ghostgate_Defender</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ghostgate_Defender</identifier>
+        <slot>Adulthood</slot>
+        <title>Ghostgate defender</title>
+        <titleShort>Ghostgate</titleShort>
+        <description>Blighted things pressed against the Ghostfence and someone had to look them in the eye. [PAWN_nameDef] served out two tours at Ghostgate and asked to be moved.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ashkhans_Champion</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ashkhans_Champion</identifier>
+        <slot>Adulthood</slot>
+        <title>Ashkhan's champion</title>
+        <titleShort>Champion</titleShort>
+        <description>Disputes among the Ashlanders go to single combat more often than the villagers realize. The Ashkhan sent [PAWN_nameDef] whenever talking had gone on too long.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Dres_Dagger_For_Hire</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Dres_Dagger_For_Hire</identifier>
+        <slot>Adulthood</slot>
+        <title>Dres dagger-for-hire</title>
+        <titleShort>Dagger</titleShort>
+        <description>House Dres pays in saltrice, slaves or silver and is very frank about it. [PAWN_nameDef] took the silver and let the rest be somebody else's sin.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Telvanni_Tower_Guard</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Telvanni_Tower_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Telvanni tower guard</title>
+        <titleShort>Tower guard</titleShort>
+        <description>Magister and apprentice alike can kill with a thought, so the guard at the door serves mainly as a courtesy. [PAWN_nameDef] served as one anyway and kept out of arguments.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Argonian_War_Veteran</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Argonian_War_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Argonian war veteran</title>
+        <titleShort>War veteran</titleShort>
+        <description>The Accession War came up through Tear with no warning. [PAWN_nameDef] saw whole towns go and still flinches at the smell of swamp water.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>2</Shooting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mournhold_High_Guard</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mournhold_High_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Mournhold high guard</title>
+        <titleShort>High guard</titleShort>
+        <description>Silver armor and a hard stare were enough for most days in Mournhold. On the bad days, [PAWN_nameDef] drew steel in the Temple's defense and asked for no thanks.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Tong_Sanctioned_Killer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Tong_Sanctioned_Killer</identifier>
+        <slot>Adulthood</slot>
+        <title>Tong sanctioned killer</title>
+        <titleShort>Writ bearer</titleShort>
+        <description>A proper writ names the target and the reason, and the Morag Tong kills no one without one. [PAWN_nameDef] held to that strictly, and considered Dark Brotherhood assassins uncouth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ashlander_Bow_Hunter</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ashlander_Bow_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>Ashlander bow hunter</title>
+        <titleShort>Bow hunter</titleShort>
+        <description>An Ashlander bow can reach a kagouti long before it reaches you. [PAWN_nameDef] grew up trusting that math with [PAWN_possessive] life.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ash_Dust_Raider</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ash_Dust_Raider</identifier>
+        <slot>Adulthood</slot>
+        <title>ash-dust raider</title>
+        <titleShort>Raider</titleShort>
+        <description>Bad storms cover plenty. [PAWN_nameDef]'s band came through the Molag Amur under one and took a caravan that never saw who did it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Solstheim_Fort_Sergeant</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Solstheim_Fort_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>Solstheim fort sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>Fort Frostmoth outlived its Imperial builders and the Dunmer moved in. [PAWN_nameDef] spent long winters mending its walls and managing the snow.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Construction>3</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Great_House_Duelist</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Great_House_Duelist</identifier>
+        <slot>Adulthood</slot>
+        <title>Great House duelist</title>
+        <titleShort>Duelist</titleShort>
+        <description>Duels between the Great Houses are legal, well-attended and require paperwork. [PAWN_nameDef] won nineteen of them and filled the forms in promptly.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Caravan_Outrider</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Caravan_Outrider</identifier>
+        <slot>Adulthood</slot>
+        <title>caravan outrider</title>
+        <titleShort>Outrider</titleShort>
+        <description>Silt striders are slow and bandits aren't. Riding the flank of a caravan through Ashlands dust left [PAWN_nameDef] with bad lungs and fine aim.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Telvanni_Magisters_Rival</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Telvanni_Magisters_Rival</identifier>
+        <slot>Adulthood</slot>
+        <title>Telvanni magister's rival</title>
+        <titleShort>Rival</titleShort>
+        <description>Advancement in House Telvanni follows the old rule: whoever survives is correct. [PAWN_nameDef] has been correct three times.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Temple_Exorcist</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Temple_Exorcist</identifier>
+        <slot>Adulthood</slot>
+        <title>Temple exorcist</title>
+        <titleShort>Exorcist</titleShort>
+        <description>Family ancestors sometimes get above themselves. [PAWN_nameDef] came with chalk, a censer and a firm tone and put them back where they belonged.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Sotha_Sils_Admirer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Sotha_Sils_Admirer</identifier>
+        <slot>Adulthood</slot>
+        <title>Sotha Sil's admirer</title>
+        <titleShort>Admirer</titleShort>
+        <description>Sotha Sil's Clockwork City is supposed to be somewhere nobody can reach. [PAWN_nameDef] built small ticking devices in hopes of being invited anyway.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Azuras_Seer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Azuras_Seer</identifier>
+        <slot>Adulthood</slot>
+        <title>Azura's seer</title>
+        <titleShort>Seer</titleShort>
+        <description>At Azura's Coast, you can hear prophecy if you're mad or in luck. [PAWN_nameDef] heard something once at dawn and has been insufferable about it ever since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Boethiahs_Scribe</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Boethiahs_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>Boethiah's scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>Boethiah teaches that the old should be thrown down, and [PAWN_nameDef] took notes on how. A few elders came to regret that the student had paid such close attention.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mephalas_Weaver</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mephalas_Weaver</identifier>
+        <slot>Adulthood</slot>
+        <title>Mephala's weaver</title>
+        <titleShort>Weaver</titleShort>
+        <description>Web-spinning means more than spiders where Mephala's faithful are concerned. [PAWN_nameDef] got three noble houses into a feud with a few well-placed letters.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ashlander_Wise_Woman</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ashlander_Wise_Woman</identifier>
+        <slot>Adulthood</slot>
+        <title>Ashlander wise woman</title>
+        <titleShort>Wise woman</titleShort>
+        <description>[PAWN_nameDef] read the omens for a whole clan and kept the Ashkhan from most of his bad ideas. Villagers call this witchcraft and are only partly wrong.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>3</Social>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Necromancer_Of_The_Ancestors</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Necromancer_Of_The_Ancestors</identifier>
+        <slot>Adulthood</slot>
+        <title>necromancer of the ancestors</title>
+        <titleShort>Bone-speaker</titleShort>
+        <description>Dunmer say necromancy is a crime unless the corpse is family, in which case it's a sacred duty. [PAWN_nameDef] worked mainly on the sacred side of that line.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Corprus_Physician</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Corprus_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>Corprus physician</title>
+        <titleShort>Physician</titleShort>
+        <description>At Tel Fyr, the sick were kept in deep rooms and studied with care. [PAWN_nameDef] served Divayth Fyr's work there and caught nothing, by rare fortune.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Soul_Gem_Trapper</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Soul_Gem_Trapper</identifier>
+        <slot>Adulthood</slot>
+        <title>soul gem trapper</title>
+        <titleShort>Trapper</titleShort>
+        <description>Telvanni enchanters always need filled gems and never ask where they came from. [PAWN_nameDef] filled them and made sure not to be asked either.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Clockwork_Apostle</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Clockwork_Apostle</identifier>
+        <slot>Adulthood</slot>
+        <title>Clockwork apostle</title>
+        <titleShort>Apostle</titleShort>
+        <description>Word of the Clockwork City came through scraps and rumors, but it was enough. [PAWN_nameDef] joined the few still trying to follow Seht's methods.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>2</Crafting>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Temple_Alchemist</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Temple_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>Temple alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>Temple hospitals go through a lot of comberry and a lot of patience. [PAWN_nameDef] brewed for the wounded after each ash storm and rationed both.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Sixth_House_Defector</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Sixth_House_Defector</identifier>
+        <slot>Adulthood</slot>
+        <title>Sixth House defector</title>
+        <titleShort>Defector</titleShort>
+        <description>It sang in [PAWN_nameDef]'s dreams for a whole season, and many went where it asked. This one woke up on the road to Kogoruhn and turned back.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>1</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Summoner_Of_Tel_Mora</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Summoner_Of_Tel_Mora</identifier>
+        <slot>Adulthood</slot>
+        <title>summoner of Tel Mora</title>
+        <titleShort>Summoner</titleShort>
+        <description>Tel Mora has very strict rules regarding what can be summoned indoors. [PAWN_nameDef] helped write most of them, after a bad evening in the east wing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Reclamation_Lay_Reader</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Reclamation_Lay_Reader</identifier>
+        <slot>Adulthood</slot>
+        <title>Reclamation lay reader</title>
+        <titleShort>Lay reader</titleShort>
+        <description>After the Tribunal fell silent, someone still had to lead the prayers. [PAWN_nameDef] read the old words to a shrinking room and adjusted the sermons to fit.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mouth_Of_A_Dead_Lord</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mouth_Of_A_Dead_Lord</identifier>
+        <slot>Adulthood</slot>
+        <title>Mouth of a dead lord</title>
+        <titleShort>Dead Mouth</titleShort>
+        <description>A Telvanni's Mouth speaks for the master. [PAWN_nameDef]'s master has been dead for six years, though the family has not yet told the council.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Mage_Of_The_Vvardenfell_Guild</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Mage_Of_The_Vvardenfell_Guild</identifier>
+        <slot>Adulthood</slot>
+        <title>mage of the Vvardenfell Guild</title>
+        <titleShort>Guild mage</titleShort>
+        <description>An Imperial Mages Guild post in Balmora meant tea with outlanders and contempt from everyone else. [PAWN_nameDef] put up with both for the library.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Flin_Distiller</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Flin_Distiller</identifier>
+        <slot>Adulthood</slot>
+        <title>flin distiller</title>
+        <titleShort>Distiller</titleShort>
+        <description>Flin came from an ancient Dunmer recipe, or so the label said. [PAWN_nameDef] wrote that label, along with the rest of the family's history.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Sujamma_Smuggler</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Sujamma_Smuggler</identifier>
+        <slot>Adulthood</slot>
+        <title>sujamma smuggler</title>
+        <titleShort>Smuggler</titleShort>
+        <description>Taxes on sujamma are for people without friends at the docks. [PAWN_nameDef] had plenty of friends, a very quiet boat and an uncle in customs.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Cooking>2</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Comberry_Farmer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Comberry_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>comberry farmer</title>
+        <titleShort>Farmer</titleShort>
+        <description>Comberry takes to ash soil better than most things. [PAWN_nameDef] worked the slopes near Vos, which gave good fruit and a clear view of everything that could go wrong.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ash_Yam_Cultivator</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ash_Yam_Cultivator</identifier>
+        <slot>Adulthood</slot>
+        <title>ash yam cultivator</title>
+        <titleShort>Cultivator</titleShort>
+        <description>On Solstheim, ash yams were the only crop that thrived without complaint. [PAWN_nameDef] made a decent living from them and rarely ate anything else.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Construction>1</Construction>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Glass_Miner</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Glass_Miner</identifier>
+        <slot>Adulthood</slot>
+        <title>glass miner</title>
+        <titleShort>Glass miner</titleShort>
+        <description>Raw malachite cuts in a very different way to steel. [PAWN_nameDef] came up from the mines around Vvardenfell with fine white scars across both hands.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>7</Mining>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ebony_Prospector</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ebony_Prospector</identifier>
+        <slot>Adulthood</slot>
+        <title>ebony prospector</title>
+        <titleShort>Prospector</titleShort>
+        <description>Red Mountain's slopes hold ebony if you're willing to go up there. [PAWN_nameDef] went up seven times and came down with enough to go up an eighth.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Chitin_Armorer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Chitin_Armorer</identifier>
+        <slot>Adulthood</slot>
+        <title>chitin armorer</title>
+        <titleShort>Armorer</titleShort>
+        <description>Good chitin armor needs an honest shell and a lot of glue. [PAWN_nameDef] could hear a bad joint from across the workshop.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Retainer_Of_The_Dres</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Retainer_Of_The_Dres</identifier>
+        <slot>Adulthood</slot>
+        <title>retainer of the Dres</title>
+        <titleShort>Retainer</titleShort>
+        <description>Keeping a Dres household running involves counting everything, including people. [PAWN_nameDef] kept the books well and doesn't like talking about them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <workDisables>Caring</workDisables>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Hlaalu_Trade_Lawyer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Hlaalu_Trade_Lawyer</identifier>
+        <slot>Adulthood</slot>
+        <title>Hlaalu trade lawyer</title>
+        <titleShort>Lawyer</titleShort>
+        <description>Under Hlaalu law, nearly everything is permissible if it was written down properly first. [PAWN_nameDef] charged by the clause and got rich.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ancestor_Tomb_Mason</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ancestor_Tomb_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>ancestor tomb mason</title>
+        <titleShort>Tomb mason</titleShort>
+        <description>Dead Dunmer stay in the family and need room for it. [PAWN_nameDef] cut new niches in ancient tombs while the current residents were, by tradition, consulted.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>6</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Cook_Of_The_Eight_Plates</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Cook_Of_The_Eight_Plates</identifier>
+        <slot>Adulthood</slot>
+        <title>cook of the Eight Plates</title>
+        <titleShort>Cook</titleShort>
+        <description>Balmora's Eight Plates was far from the only tavern in town, but it had [PAWN_nameDef] at the fire. A good scuttle pie will outlast most politics.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Strider_Caller</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Strider_Caller</identifier>
+        <slot>Adulthood</slot>
+        <title>strider caller</title>
+        <titleShort>Caller</titleShort>
+        <description>Silt striders go where they're told, as long as the caller knows which organ to press. [PAWN_nameDef] knew them all and kept a clean rag for after.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Vivec_Moneylender</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Vivec_Moneylender</identifier>
+        <slot>Adulthood</slot>
+        <title>Vivec moneylender</title>
+        <titleShort>Moneylender</titleShort>
+        <description>A canton's lower levels are full of folk who need coin before payday. [PAWN_nameDef] worked from a small room there and collected most of it back with interest.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Bonemold_Sculptor</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Bonemold_Sculptor</identifier>
+        <slot>Adulthood</slot>
+        <title>bonemold sculptor</title>
+        <titleShort>Sculptor</titleShort>
+        <description>Ordinators wanted statues of the Three and paid promptly. Once the Three fell out of favor, [PAWN_nameDef] went over to memorial work and was busier than ever.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>7</Artistic>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Raven_Rock_Clerk</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Raven_Rock_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>Raven Rock clerk</title>
+        <titleShort>Clerk</titleShort>
+        <description>The East Empire Company took ebony from Raven Rock, and the Redoran taxed it. [PAWN_nameDef] sat in the middle and kept two sets of books, both correct.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>3</Social>
+            <Mining>1</Mining>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Funeral_Singer</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Funeral_Singer</identifier>
+        <slot>Adulthood</slot>
+        <title>funeral singer</title>
+        <titleShort>Singer</titleShort>
+        <description>Grief in Morrowind runs on schedule, with a song for every stage of it. Families hired [PAWN_nameDef] to ensure they did it right.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>5</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Hide_Scraper</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Hide_Scraper</identifier>
+        <slot>Adulthood</slot>
+        <title>hide scraper</title>
+        <titleShort>Scraper</titleShort>
+        <description>Guar hide, netch leather and a little kagouti when the hunting was good. [PAWN_nameDef] worked a small yard in Molag Mar and could tell a hide's age with a thumb.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Ashlander_Guide</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Ashlander_Guide</identifier>
+        <slot>Adulthood</slot>
+        <title>Ashlander guide</title>
+        <titleShort>Guide</titleShort>
+        <description>Pilgrims paying good silver wanted to reach the shrines without walking into a foyada. [PAWN_nameDef] took them there and collected their stories for free.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Plants>3</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Refugee_Boatman</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Refugee_Boatman</identifier>
+        <slot>Adulthood</slot>
+        <title>refugee boatman</title>
+        <titleShort>Boatman</titleShort>
+        <description>Vvardenfell's refugees needed a way across the Inner Sea, and [PAWN_nameDef]'s boat was the one that turned up. Many of them never got to pay.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>3</Social>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Dunmer_Adult_Kwama_Forager</defName>
+        <identifier>ESCP_Backstory_Dunmer_Adult_Kwama_Forager</identifier>
+        <slot>Adulthood</slot>
+        <title>kwama forager</title>
+        <titleShort>Forager</titleShort>
+        <description>Eggs come out of the dark and go to every table in Morrowind. [PAWN_nameDef] went in with a basket and a lantern, and hoped the warriors were resting.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Dunmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</Mining>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

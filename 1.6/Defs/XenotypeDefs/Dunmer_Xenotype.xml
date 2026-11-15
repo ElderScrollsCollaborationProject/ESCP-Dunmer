@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerColouredEyes">
+        <defName>ESCP_Xenotype_Dunmer</defName>
+        <label>Dunmer</label>
+        <iconPath>UI/Icons/Xenotypes/Sanguophage</iconPath>
+        <description>The ash-skinned mer of Morrowind, cursed by Azura for the betrayal at Red Mountain and proud of it in the way only they can be. They have lived beside a volcano for thousands of years, buried their dead under their houses, and fought off everyone who tried to tell them how to do either. Outsiders call them grim. Dunmer consider that a fair observation about outsiders.</description>
+        <descriptionShort>Ash-skinned survivors of Morrowind: fire-hardened, clannish, and hard to kill.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Dunmer_Ancestral</li>
+            <li>ESCP_Gene_Dunmer_Ashlander</li>
+            <li>ESCP_Gene_Dunmer_Cunning</li>
+            <li>ESCP_Gene_Dunmer_Ember_Eyes</li>
+            <li>Skin_SlateGray</li>
+            <li>FireResistant</li>
+            <li>MaxTemp_SmallIncrease</li>
+            <li>ESCP_Gene_Dunmer_Beard</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

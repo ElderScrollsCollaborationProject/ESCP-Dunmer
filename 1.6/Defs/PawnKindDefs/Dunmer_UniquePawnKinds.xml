@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Dunmer_UniqueCharacterBase" ParentName="ESCP_DunmerkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Dunmer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Dunmer_Archmaster</defName>
+        <label>Archmaster of House Redoran</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>250</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Hortator>0</ESCP_Trait_Dunmer_Hortator>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Dunmer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Dunmer_Master</defName>
+        <label>Telvanni Master</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>280</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Hortator>0</ESCP_Trait_Dunmer_Hortator>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

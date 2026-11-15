@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>ESCP_Caravan_Dunmer_Trader</defName>
+        <label>Dunmer trader</label>
+        <modExtensions>
+            <li Class="ESCP.Currencies.CurrencyReplacement">
+                <currency>ESCP_Currency_Septims</currency>
+            </li>
+        </modExtensions>
+
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>300~800</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>60~180</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>WoodLog</thingDef>
+                <countRange>40~120</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Leather_Plain</thingDef>
+                <countRange>40~110</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineHerbal</thingDef>
+                <countRange>10~28</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Pemmican</thingDef>
+                <countRange>60~150</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Beer</thingDef>
+                <countRange>15~40</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ESCP_Tome_Healing</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ExoticMisc</tag>
+            </li>
+            <li Class="ESCP.Enlist.StockGenerator_Pawns" />
+
+        </stockGenerators>
+
+        <tradeCurrency>Silver</tradeCurrency>
+
+    </TraderKindDef>
+
+</Defs>

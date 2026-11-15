@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>ESCP_Research_Dunmer_AshBurial</defName>
+        <label>ancestral tombs</label>
+        <description>Learn how the Dunmer burn their dead and keep the ash in burial pits and urns, so the ancestors stay close enough to guard and advise the family.</description>
+        <baseCost>300</baseCost>
+        <techLevel>Neolithic</techLevel>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
+        <tab>ESCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+</Defs>

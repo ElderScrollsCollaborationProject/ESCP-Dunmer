@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_DunmerkindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_House_Redoran</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Dunmer MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_Dunmer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <maxGenerationAge>65</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Citizen</defName>
+        <label>Dunmer commoner</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Merchant</defName>
+        <label>Dunmer trader's factor</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Noble</defName>
+        <label>Dunmer house retainer</label>
+        <combatPower>60</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>600~1200</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>Cape</li>
+            <li>RoyalTier5</li>
+            <li>RoyalRobe</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Trader</defName>
+        <label>Dunmer trader</label>
+        <trader>true</trader>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Quartermaster</defName>
+        <label>Dunmer quartermaster</label>
+        <trader>true</trader>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>500~1000</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Melee</defName>
+        <label>Dunmer hearth guard</label>
+        <combatPower>90</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Ranged</defName>
+        <label>Dunmer ash archer</label>
+        <combatPower>80</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedBasic</li>
+            <li>NeolithicRangedDecent</li>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Mage</defName>
+        <label>Dunmer temple mage</label>
+        <combatPower>100</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~900</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>BestowerHood</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Hortator>0</ESCP_Trait_Dunmer_Hortator>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                    <li>ESCP_Spell_Oakflesh</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_Fireball</li>
+                    <li>ESCP_Spell_Fear</li>
+                    <li>ESCP_Spell_ConjureWolf</li>
+                    <li>ESCP_Spell_SoulTrap</li>
+                </randomSpells>
+                <randomCount>1~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Captain</defName>
+        <label>Dunmer hearth guard captain</label>
+        <combatPower>122</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>700~1300</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                </spells>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Elite</defName>
+        <label>Dunmer councilor's champion</label>
+        <combatPower>155</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>900~1800</apparelMoney>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Morag>0</ESCP_Trait_Dunmer_Morag>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_DunmerkindBase">
+        <defName>ESCP_Pawnkind_Dunmer_Settler</defName>
+        <label>Dunmer settler</label>
+        <defaultFactionDef>ESCP_Faction_Dunmer_Player</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>350~600</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Dunmer_Temple>0</ESCP_Trait_Dunmer_Temple>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

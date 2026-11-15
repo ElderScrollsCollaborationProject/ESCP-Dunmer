@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_HouseRedoran_Enlist_Letter_Title>Hireling of House Redoran</ESCP_HouseRedoran_Enlist_Letter_Title>
+    <ESCP_HouseRedoran_Enlist_Letter_Label>The colony has been taken on as a hireling of House Redoran. The house expects duty and honor, and pays for both.</ESCP_HouseRedoran_Enlist_Letter_Label>
+    <ESCP_HouseRedoran_Enlist_Button_Label>Join House Redoran</ESCP_HouseRedoran_Enlist_Button_Label>
+    <ESCP_HouseRedoran_Enlist_Button_Desc>Swear to House Redoran, the warrior house of Morrowind. Duty first, always.</ESCP_HouseRedoran_Enlist_Button_Desc>
+    <ESCP_HouseRedoran_Enlist_Requrements_Not_Satisfied>House Redoran does not yet trust your honor. Standing: {0}.</ESCP_HouseRedoran_Enlist_Requrements_Not_Satisfied>
+    <ESCP_HouseRedoran_Enlisted_To_Hostile_Faction>House Redoran will not take the oath of its enemies.</ESCP_HouseRedoran_Enlisted_To_Hostile_Faction>
+    <ESCP_HouseRedoran_Enlisted_With_Key>Hireling of House Redoran</ESCP_HouseRedoran_Enlisted_With_Key>
+    <ESCP_HouseRedoran_Missions_Label>House duties</ESCP_HouseRedoran_Missions_Label>
+    <ESCP_HouseRedoran_Missions_Desc>See what the councilors need done.</ESCP_HouseRedoran_Missions_Desc>
+    <ESCP_HouseRedoran_Menu_Missions_Desc>Duties assigned by the Redoran council. Paid when completed.</ESCP_HouseRedoran_Menu_Missions_Desc>
+    <ESCP_HouseRedoran_Menu_Missions_Select_Quest>Select a job</ESCP_HouseRedoran_Menu_Missions_Select_Quest>
+    <ESCP_HouseRedoran_Menu_Missions_Start_Quest>Accept</ESCP_HouseRedoran_Menu_Missions_Start_Quest>
+    <ESCP_HouseRedoran_Menu_Missions_Collect_Bounty>Collect</ESCP_HouseRedoran_Menu_Missions_Collect_Bounty>
+    <ESCP_HouseRedoran_Provisions_Label>Draw rations</ESCP_HouseRedoran_Provisions_Label>
+    <ESCP_HouseRedoran_Provisions_Desc>Scuttle, saltrice and a little sujamma.</ESCP_HouseRedoran_Provisions_Desc>
+    <ESCP_HouseRedoran_Storage_Label>Redoran storeroom</ESCP_HouseRedoran_Storage_Label>
+    <ESCP_HouseRedoran_Storage_Desc>Leave goods in a Redoran council hall.</ESCP_HouseRedoran_Storage_Desc>
+    <ESCP_HouseRedoran_Resign_Menu_Text>Leave House Redoran? They will think less of your honor.</ESCP_HouseRedoran_Resign_Menu_Text>
+    <ESCP_HouseRedoran_Resign_Letter_Title>Left House Redoran</ESCP_HouseRedoran_Resign_Letter_Title>
+    <ESCP_HouseRedoran_Resign_Letter_Label>The colony has left House Redoran.</ESCP_HouseRedoran_Resign_Letter_Label>
+    <ESCP_HouseRedoran_Resign_Button_Label>Leave the house</ESCP_HouseRedoran_Resign_Button_Label>
+    <ESCP_HouseRedoran_Resign_Button_Desc>Give up your place in House Redoran.</ESCP_HouseRedoran_Resign_Button_Desc>
+    <ESCP_HouseRedoran_Kick_Out_Letter_Title>Expelled from House Redoran</ESCP_HouseRedoran_Kick_Out_Letter_Title>
+    <ESCP_HouseRedoran_Kick_Out_Label_Title>House Redoran has judged the colony without honor.</ESCP_HouseRedoran_Kick_Out_Label_Title>
+    <ESCP_HouseRedoran_Salary_Label>Collect your wages</ESCP_HouseRedoran_Salary_Label>
+    <ESCP_HouseRedoran_Salary_Desc>Drakes from the Redoran treasury.</ESCP_HouseRedoran_Salary_Desc>
+    <ESCP_HouseRedoran_Work_0_Label>Guard the ash roads</ESCP_HouseRedoran_Work_0_Label>
+    <ESCP_HouseRedoran_Work_0_Desc>Patrol the roads between Redoran towns against cliff racers and worse.</ESCP_HouseRedoran_Work_0_Desc>
+    <ESCP_HouseRedoran_Work_1_Label>Drill with Redoran guards</ESCP_HouseRedoran_Work_1_Label>
+    <ESCP_HouseRedoran_Work_1_Desc>Learn to fight in bonemold, Redoran style.</ESCP_HouseRedoran_Work_1_Desc>
+
+</LanguageData>

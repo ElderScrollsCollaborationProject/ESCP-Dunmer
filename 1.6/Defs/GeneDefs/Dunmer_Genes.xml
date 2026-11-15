@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dunmer_Ancestral</defName>
+        <label>ancestor's wrath</label>
+        <description>Dunmer keep their dead close, and in the worst moments the dead keep them close too. Carriers can call on their ancestors once a day, and hit much harder while the anger lasts.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <PainShockThreshold>0.08</PainShockThreshold>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Dunmer_Ancestors_Wrath</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dunmer_Ashlander</defName>
+        <label>ash-lung</label>
+        <description>Generations of breathing the air under Red Mountain have left Dunmer lungs thick with scarring that happens to work in their favor. Toxic air troubles them much less than it should.</description>
+        <iconPath>UI/Icons/Genes/Gene_PsychicBonding</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+            <ToxicResistance>0.2</ToxicResistance>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dunmer_Cunning</defName>
+        <label>Great House cunning</label>
+        <description>A people ruled by five rival houses learn to step carefully. Carriers dodge more than their size would suggest, and they notice when they are being lied to.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <MeleeDodgeChance>6</MeleeDodgeChance>
+            <NegotiationAbility>0.06</NegotiationAbility>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Dunmer_Ember_Eyes</defName>
+        <label>ember eyes</label>
+        <description>Azura's curse left the Dunmer with ash skin and eyes the color of a banked fire, and every child since has been born that way.</description>
+        <iconPath>UI/Icons/Genes/Gene_RedEyes</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>103</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <modExtensions>
+            <li Class="ESCP_RaceTools_Biotech.GeneExtension_EyeColor">
+                <color>(0.78, 0.07, 0.05)</color>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneBeardStyleBase">
+        <defName>ESCP_Gene_Dunmer_Beard</defName>
+        <label>trim facial hair</label>
+        <description>Dark Elf men grow little on the face beyond a narrow goatee or a chin strip, and many grow nothing at all.</description>
+        <iconPath>UI/Icons/Genes/Gene_BeardStyleNone</iconPath>
+        <displayOrderInCategory>70</displayOrderInCategory>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+                <li>BeardShort</li>
+            </tags>
+        </beardTagFilter>
+    </GeneDef>
+
+</Defs>

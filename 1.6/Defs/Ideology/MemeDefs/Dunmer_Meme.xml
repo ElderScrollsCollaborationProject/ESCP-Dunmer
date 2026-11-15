@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_Reclamations</defName>
+        <label>The Reclamations</label>
+        <description>Our ancestors stand behind us, under our floors and in our quarrels. We have outlasted the Dwemer, the Empire and the fall of our own living gods. Foreigners may trade in our towns. They will never tell us who we are.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Slavery_Acceptable</li>
+                <li>Slavery_Honorable</li>
+            </li>
+            <li>
+                <li>Execution_DontCare</li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+            <li>
+                <li>Research_Normal</li>
+            </li>
+            <li>
+                <li>DrugUse_MedicalOrSocial</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

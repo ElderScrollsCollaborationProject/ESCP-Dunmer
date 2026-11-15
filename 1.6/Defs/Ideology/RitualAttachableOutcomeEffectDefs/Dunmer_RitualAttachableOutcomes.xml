@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RitualAttachableOutcomeEffectDef>
+        <defName>ESCP_DunmerSeance_AncestorKnowledge</defName>
+        <workerClass>ESCP_RaceTools.RitualAttachableOutcomeEffectWorker_DunmerAncestorKnowledge</workerClass>
+        <label>ancestral knowledge</label>
+        <effectDesc>each participant receives a random ancestral blessing, lasting up to 3 days for a good seance and up to 5 days for an enlightening one. Each 10% of the speaker's psychic sensitivity adds 2 hours.</effectDesc>
+        <letterInfoText>The ancestors have blessed everyone who attended. The blessing lasts for </letterInfoText>
+        <requiredMemeAny>
+            <li>ESCP_Meme_Reclamations</li>
+        </requiredMemeAny>
+        <allowedRituals>
+            <li>ESCP_DunmerSeance</li>
+        </allowedRituals>
+    </RitualAttachableOutcomeEffectDef>
+
+</Defs>

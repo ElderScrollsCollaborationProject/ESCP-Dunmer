@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_HouseTelvanni_Enlist_Letter_Title>Telvanni retainer</ESCP_HouseTelvanni_Enlist_Letter_Title>
+    <ESCP_HouseTelvanni_Enlist_Letter_Label>The colony now serves House Telvanni. A Telvanni master has decided you might be useful, which is as close to a compliment as they get.</ESCP_HouseTelvanni_Enlist_Letter_Label>
+    <ESCP_HouseTelvanni_Enlist_Button_Label>Become a Telvanni retainer</ESCP_HouseTelvanni_Enlist_Button_Label>
+    <ESCP_HouseTelvanni_Enlist_Button_Desc>Serve a Telvanni wizard-lord. The work is strange, the pay is good, and nobody asks what happens in the towers.</ESCP_HouseTelvanni_Enlist_Button_Desc>
+    <ESCP_HouseTelvanni_Enlist_Requrements_Not_Satisfied>No Telvanni master has any use for you yet. Standing: {0}.</ESCP_HouseTelvanni_Enlist_Requrements_Not_Satisfied>
+    <ESCP_HouseTelvanni_Enlisted_To_Hostile_Faction>House Telvanni does not employ its enemies, unless it is to experiment on them.</ESCP_HouseTelvanni_Enlisted_To_Hostile_Faction>
+    <ESCP_HouseTelvanni_Enlisted_With_Key>Retainer of House Telvanni</ESCP_HouseTelvanni_Enlisted_With_Key>
+    <ESCP_HouseTelvanni_Missions_Label>A master's errands</ESCP_HouseTelvanni_Missions_Label>
+    <ESCP_HouseTelvanni_Missions_Desc>See what the wizard-lords want.</ESCP_HouseTelvanni_Missions_Desc>
+    <ESCP_HouseTelvanni_Menu_Missions_Desc>Errands from the Telvanni towers. They pay well and do not explain.</ESCP_HouseTelvanni_Menu_Missions_Desc>
+    <ESCP_HouseTelvanni_Menu_Missions_Select_Quest>Select a job</ESCP_HouseTelvanni_Menu_Missions_Select_Quest>
+    <ESCP_HouseTelvanni_Menu_Missions_Start_Quest>Accept</ESCP_HouseTelvanni_Menu_Missions_Start_Quest>
+    <ESCP_HouseTelvanni_Menu_Missions_Collect_Bounty>Collect</ESCP_HouseTelvanni_Menu_Missions_Collect_Bounty>
+    <ESCP_HouseTelvanni_Provisions_Label>Draw tower stores</ESCP_HouseTelvanni_Provisions_Label>
+    <ESCP_HouseTelvanni_Provisions_Desc>Mushroom bread and potion ingredients from the tower.</ESCP_HouseTelvanni_Provisions_Desc>
+    <ESCP_HouseTelvanni_Storage_Label>Tower storeroom</ESCP_HouseTelvanni_Storage_Label>
+    <ESCP_HouseTelvanni_Storage_Desc>Leave goods in a Telvanni tower. Probably safe.</ESCP_HouseTelvanni_Storage_Desc>
+    <ESCP_HouseTelvanni_Resign_Menu_Text>Leave House Telvanni? Your master may not even notice.</ESCP_HouseTelvanni_Resign_Menu_Text>
+    <ESCP_HouseTelvanni_Resign_Letter_Title>Left House Telvanni</ESCP_HouseTelvanni_Resign_Letter_Title>
+    <ESCP_HouseTelvanni_Resign_Letter_Label>The colony has left Telvanni service.</ESCP_HouseTelvanni_Resign_Letter_Label>
+    <ESCP_HouseTelvanni_Resign_Button_Label>Leave the house</ESCP_HouseTelvanni_Resign_Button_Label>
+    <ESCP_HouseTelvanni_Resign_Button_Desc>End your service to the Telvanni.</ESCP_HouseTelvanni_Resign_Button_Desc>
+    <ESCP_HouseTelvanni_Kick_Out_Letter_Title>Dismissed by House Telvanni</ESCP_HouseTelvanni_Kick_Out_Letter_Title>
+    <ESCP_HouseTelvanni_Kick_Out_Label_Title>The Telvanni masters have no further use for the colony.</ESCP_HouseTelvanni_Kick_Out_Label_Title>
+    <ESCP_HouseTelvanni_Salary_Label>Collect your wages</ESCP_HouseTelvanni_Salary_Label>
+    <ESCP_HouseTelvanni_Salary_Desc>Coin from a master who has already forgotten your name.</ESCP_HouseTelvanni_Salary_Desc>
+    <ESCP_HouseTelvanni_Work_0_Label>Gather for a master</ESCP_HouseTelvanni_Work_0_Label>
+    <ESCP_HouseTelvanni_Work_0_Desc>Collect mushrooms, salts and stranger things for a Telvanni wizard.</ESCP_HouseTelvanni_Work_0_Desc>
+    <ESCP_HouseTelvanni_Work_1_Label>Study in the tower</ESCP_HouseTelvanni_Work_1_Label>
+    <ESCP_HouseTelvanni_Work_1_Desc>Read books you are not supposed to understand.</ESCP_HouseTelvanni_Work_1_Desc>
+
+</LanguageData>

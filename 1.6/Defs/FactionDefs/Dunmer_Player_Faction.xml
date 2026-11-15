@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Dunmer_Player</defName>
+        <label>Velothi Refuge</label>
+        <description>Dunmer driven out by ash and old quarrels, trying again somewhere nobody has yet buried a grandmother. They brought the family urns.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Dunmer_Settler</basicMemberKind>
+        <pawnSingular>Dunmer</pawnSingular>
+        <pawnsPlural>Dunmer</pawnsPlural>
+        <leaderTitle>Councilor</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.55, 0.15, 0.12)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Dunmer>1</ESCP_Xenotype_Dunmer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Dunmer</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Dunmer_Child</li>
+                    <li>ESCP_Backstory_Dunmer_Citizen</li>
+                    <li>ESCP_Backstory_Dunmer_Military</li>
+                    <li>ESCP_Backstory_Dunmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_GreatHouse</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

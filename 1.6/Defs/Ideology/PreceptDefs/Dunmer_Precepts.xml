@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PreceptDef ParentName="PreceptRoleSingleBase">
+        <defName>ESCP_Dunmer_IdeoRole_AncestorSpeaker</defName>
+        <label>ancestor speaker</label>
+        <description>A Dunmer who speaks for the family dead. The ancestors guard the tomb and the household, and the speaker can call on them to steady, heal, teach or protect the living. Speakers are more psychically sensitive and hold up better under pain and strain, but refuse heavy labor.\n\nThis role suits someone the ancestors already listen to.</description>
+        <iconPath>UI/Roles/ESCP_DunmerSpecialistAncestorSpeaker</iconPath>
+        <nameMaker>ESCP_DunmerNamerRoleAncestorSpeaker</nameMaker>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <restrictToSupremeGenderChance>0.5</restrictToSupremeGenderChance>
+        <convertPowerFactor>2</convertPowerFactor>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Social>8</Social>
+                </skills>
+            </li>
+            <li Class="ESCP_RaceTools.RoleRequirement_RaceMulti">
+                <xenotypes>
+                    <li>ESCP_Xenotype_Dunmer</li>
+                </xenotypes>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTagAny>
+            <li>Social</li>
+        </roleRequiredWorkTagAny>
+        <roleTags>
+            <li>ESCP_Dunmer_IdeoRole_AncestorSpeaker</li>
+        </roleTags>
+        <requiredMemes>
+            <li>ESCP_Meme_Reclamations</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>PsychicSensitivity</statDef>
+                <modifier>0.2</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>MentalBreakThreshold</statDef>
+                <modifier>-0.15</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>PainShockThreshold</statDef>
+                <modifier>0.15</modifier>
+            </li>
+        </roleEffects>
+        <grantedAbilities>
+            <li>ESCP_Dunmer_AncestralGuidance</li>
+            <li>ESCP_Dunmer_AncestralHealing</li>
+            <li>ESCP_Dunmer_AncestralProtection</li>
+            <li>ESCP_Dunmer_AncestralSight</li>
+            <li>ESCP_Dunmer_AncestralWisdom</li>
+        </grantedAbilities>
+        <roleDisabledWorkTags>
+            <li>Mining</li>
+            <li>Constructing</li>
+        </roleDisabledWorkTags>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>ESCP_DunmerSeance</defName>
+        <label>ancestor seance</label>
+        <description>A gathering at the family tomb where the living speak with their dead and ask for their counsel.</description>
+        <issue>Ritual</issue>
+        <impact>Medium</impact>
+        <iconPath>UI/Icons/Rituals/ESCP_DunmerRitualSeance</iconPath>
+        <preceptClass>Precept_Ritual</preceptClass>
+        <ritualPatternBase>ESCP_DunmerSeance</ritualPatternBase>
+        <allowDuplicates>false</allowDuplicates>
+        <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+        <selectionWeight>1.0</selectionWeight>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
+        <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+        <requiredMemes>
+            <li>ESCP_Meme_Reclamations</li>
+        </requiredMemes>
+    </PreceptDef>
+
+</Defs>

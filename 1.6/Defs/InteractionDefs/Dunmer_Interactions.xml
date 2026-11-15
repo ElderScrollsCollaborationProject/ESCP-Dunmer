@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <InteractionDef>
+        <defName>ESCP_Dunmer_AncestralKnowledge</defName>
+        <label>ancestral knowledge</label>
+        <workerClass>InteractionWorker</workerClass>
+        <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+        <symbol>Things/Mote/SpeechSymbols/ESCP_DunmerSymbolSeance</symbol>
+        <logRulesInitiator>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] called on the ancestors and passed their knowledge to [RECIPIENT_nameDef].</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </InteractionDef>
+
+    <InteractionDef>
+        <defName>ESCP_DunmerSpeech_Seance</defName>
+        <label>ancestor seance</label>
+        <workerClass>InteractionWorker</workerClass>
+        <ignoreTimeSinceLastInteraction>True</ignoreTimeSinceLastInteraction>
+        <symbol>Things/Mote/SpeechSymbols/ESCP_DunmerSymbolSeance</symbol>
+        <logRulesInitiator>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [shared] [speechtopic].</li>
+                <li>shared->passed on what the ancestors know of</li>
+                <li>shared->relayed the ancestors' advice on</li>
+                <li>shared->repeated the ancestors' warnings about</li>
+                <li>shared->spoke for the ancestors on</li>
+                <li>speechtopic->following in their footsteps</li>
+                <li>speechtopic->keeping a kwama egg mine</li>
+                <li>speechtopic->mining glass without cutting yourself to ribbons</li>
+                <li>speechtopic->mining ebony without breaking your pick</li>
+                <li>speechtopic->herding guar</li>
+                <li>speechtopic->surviving a sujamma drinking contest</li>
+                <li>speechtopic->the cliff racer menace</li>
+                <li>speechtopic->the song of a silt strider</li>
+                <li>speechtopic->the dangers of breathing ash</li>
+                <li>speechtopic->the dangers of skooma</li>
+                <li>speechtopic->the Blight</li>
+                <li>speechtopic->cleaning your boots after an ash storm</li>
+                <li>speechtopic->working bonemold</li>
+                <li>speechtopic->surviving the Ashlands</li>
+                <li>speechtopic->why you should never punch an ogrim</li>
+                <li>speechtopic->telling an ash storm from a cliff racer swarm</li>
+                <li>speechtopic->the betrayal at Red Mountain</li>
+                <li>speechtopic->the debts owed to House Redoran</li>
+                <li>speechtopic->the Telvanni and their towers</li>
+                <li>speechtopic->honoring the family tomb</li>
+                <li>speechtopic->the Red Year</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </InteractionDef>
+
+</Defs>

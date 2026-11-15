@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="ESCP_Dunmer_Grave_Base" ParentName="BuildingBase" Abstract="True">
+        <thingClass>ESCP_RaceTools.Building_AshBurialPit</thingClass>
+        <dominantStyleCategory>ESCP_Style_Dunmer</dominantStyleCategory>
+        <tickerType>Rare</tickerType>
+        <pathCost>50</pathCost>
+        <fillPercent>0.5</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <castEdgeShadows>false</castEdgeShadows>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <blockWind>false</blockWind>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <staticSunShadowHeight>0.0</staticSunShadowHeight>
+        <designationCategory>Misc</designationCategory>
+        <statBases>
+            <WorkToBuild>1000</WorkToBuild>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <researchPrerequisites>
+            <li>ESCP_Research_Dunmer_AshBurial</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Woody</li>
+            <li>Metallic</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <inspectorTabs>
+            <li>ITab_Storage</li>
+            <li>ITab_ContentsCasket</li>
+        </inspectorTabs>
+        <placeWorkers>
+            <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+        </placeWorkers>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <preventDeteriorationInside>true</preventDeteriorationInside>
+            <isEscapableContainer>false</isEscapableContainer>
+            <haulToContainerDuration>500</haulToContainerDuration>
+            <fixedStorageSettings>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+            <defaultStorageSettings>
+                <priority>Important</priority>
+                <filter>
+                    <categories>
+                        <li>CorpsesHumanlike</li>
+                    </categories>
+                    <specialFiltersToDisallow>
+                        <li>AllowCorpsesStranger</li>
+                    </specialFiltersToDisallow>
+                </filter>
+            </defaultStorageSettings>
+            <buildingTags>
+                <li>RitualFocus</li>
+            </buildingTags>
+        </building>
+        <comps>
+            <li Class="ESCP_RaceTools.CompProperties_DunmerGraveWhisper">
+                <soundDef>ESCP_DunmerGraveWhispering</soundDef>
+                <onlyFull>true</onlyFull>
+                <chance>0.1</chance>
+            </li>
+            <li Class="CompProperties_AssignableToPawn">
+                <drawAssignmentOverlay>false</drawAssignmentOverlay>
+                <compClass>CompAssignableToPawn_Grave</compClass>
+            </li>
+            <li Class="CompProperties_MeditationFocus">
+                <statDef>MeditationFocusStrength</statDef>
+                <focusTypes>
+                    <li>ESCP_DunmerAncestralMeditation</li>
+                </focusTypes>
+                <offsets>
+                    <li Class="FocusStrengthOffset_GraveFull">
+                        <offset>0.10</offset>
+                    </li>
+                    <li Class="FocusStrengthOffset_GraveCorpseRelationship">
+                        <offset>0.10</offset>
+                    </li>
+                    <li Class="FocusStrengthOffset_NearbyGraves">
+                        <defs>
+                            <li>ESCP_Dunmer_AshBurialPit_SquareCorner</li>
+                            <li>ESCP_Dunmer_AshBurialPit_RoundedCorner</li>
+                            <li>ESCP_Dunmer_BurialUrn</li>
+                        </defs>
+                        <offsetPerBuilding>0.005</offsetPerBuilding>
+                        <radius>9.9</radius>
+                        <maxBuildings>20</maxBuildings>
+                        <focusPerFullGrave>0.005</focusPerFullGrave>
+                        <explanationKey>MeditationFocusPerGrave</explanationKey>
+                        <explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
+                    </li>
+                </offsets>
+            </li>
+        </comps>
+        <ritualFocus>
+            <spectateDistance>2</spectateDistance>
+            <allowedSpectateSides>Vertical</allowedSpectateSides>
+        </ritualFocus>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_Dunmer_Grave_Base">
+        <defName>ESCP_Dunmer_BurialUrn</defName>
+        <label>Dunmer burial urn</label>
+        <description>Most Dunmer scatter the ash and bone of their dead into a burial pit, but those of high standing are often kept in an urn in the family tomb instead.\n\nCorpses placed inside are cremated, leaving only bone and ash. Worn apparel and carried items are dropped nearby.</description>
+        <graphicData>
+            <texPath>Things/Building/Misc/ESCP_DunmerBurialUrn/ESCP_DunmerBurialUrnEmpty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.5,1.5)</drawSize>
+            <drawOffset>(0,0,0.2)</drawOffset>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <building>
+            <isEdifice>false</isEdifice>
+            <fullGraveGraphicData>
+                <texPath>Things/Building/Misc/ESCP_DunmerBurialUrn/ESCP_DunmerBurialUrnFull</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1.5,1.5)</drawSize>
+            </fullGraveGraphicData>
+        </building>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <size>(1,1)</size>
+        <rotatable>false</rotatable>
+        <costStuffCount>20</costStuffCount>
+        <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+        <clearBuildingArea>false</clearBuildingArea>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+        <statBases>
+            <Mass>3</Mass>
+        </statBases>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtSarcophagusPlate</nameMaker>
+                <descriptionMaker>ArtDescription_SarcophagusPlate</descriptionMaker>
+                <mustBeFullGrave>true</mustBeFullGrave>
+            </li>
+            <li Class="CompProperties_Styleable" />
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="ESCP_Dunmer_AshBurialPit_Base" ParentName="ESCP_Dunmer_Grave_Base" Abstract="True">
+        <description>An ash pit built in the Dunmeri way. Dunmer rarely bury their dead whole. They burn the body and pour the ash and bone into a pit in the family tomb, returning the dead to the ash they came from, where the living can still call on them.\n\nCorpses placed inside are cremated, leaving only bone and ash. Worn apparel and carried items are dropped nearby.</description>
+        <graphicData>
+            <drawSize>(1.5,1.5)</drawSize>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <linkType>Basic</linkType>
+            <linkFlags>
+                <li>Sandbags</li>
+            </linkFlags>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+                <edgeTop>Damage/Edge</edgeTop>
+                <edgeBot>Damage/Edge</edgeBot>
+                <edgeLeft>Damage/Edge</edgeLeft>
+                <edgeRight>Damage/Edge</edgeRight>
+            </damageData>
+        </graphicData>
+        <costStuffCount>20</costStuffCount>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <building>
+            <fullGraveGraphicData>
+                <drawSize>(1.5,1.5)</drawSize>
+                <graphicClass>Graphic_Single</graphicClass>
+                <linkType>Basic</linkType>
+                <shaderType>CutoutComplex</shaderType>
+                <linkFlags>
+                    <li>Sandbags</li>
+                </linkFlags>
+                <damageData>
+                    <cornerTL>Damage/Corner</cornerTL>
+                    <cornerTR>Damage/Corner</cornerTR>
+                    <cornerBL>Damage/Corner</cornerBL>
+                    <cornerBR>Damage/Corner</cornerBR>
+                    <edgeTop>Damage/Edge</edgeTop>
+                    <edgeBot>Damage/Edge</edgeBot>
+                    <edgeLeft>Damage/Edge</edgeLeft>
+                    <edgeRight>Damage/Edge</edgeRight>
+                </damageData>
+            </fullGraveGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
+        <defName>ESCP_Dunmer_AshBurialPit_SquareCorner</defName>
+        <label>ash burial pit (square corners)</label>
+        <graphicData>
+            <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_Atlas</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_MenuIcon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_BlueprintAtlas</texPath>
+            </blueprintGraphicData>
+            <fullGraveGraphicData>
+                <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_SquareCorner/ESCP_Dunmer_AshBurialPit_SquareCorner_FullAtlas</texPath>
+            </fullGraveGraphicData>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="ESCP_Dunmer_AshBurialPit_Base">
+        <defName>ESCP_Dunmer_AshBurialPit_RoundedCorner</defName>
+        <label>ash burial pit (rounded corners)</label>
+        <graphicData>
+            <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_Atlas</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_MenuIcon</uiIconPath>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_BlueprintAtlas</texPath>
+            </blueprintGraphicData>
+            <fullGraveGraphicData>
+                <texPath>Things/Building/Linked/ESCP_Dunmer_AshBurialPit_RoundedCorner/ESCP_Dunmer_AshBurialPit_RoundedCorner_FullAtlas</texPath>
+            </fullGraveGraphicData>
+        </building>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Dunmer_Hearthkin</defName>
+        <label>hearthkin</label>
+        <description>A sworn member of a Redoran household, owed protection and owing more of it in return.</description>
+        <tags>
+            <li>ESCP_Title_Dunmer</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Dunmer_Retainer</defName>
+        <label>house retainer</label>
+        <description>A proven servant of the House who may carry its sigil and speak for a councilor on small matters.</description>
+        <tags>
+            <li>ESCP_Title_Dunmer</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Dunmer_Councilor</defName>
+        <label>councilor</label>
+        <description>A seat among those who actually run the District, along with a daily stream of feuds to settle.</description>
+        <tags>
+            <li>ESCP_Title_Dunmer</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Dunmer_Hortator</defName>
+        <label>hortator</label>
+        <description>A war leader acclaimed by the Houses in a crisis. The title is rare, and the crises that require it tend to be remembered.</description>
+        <tags>
+            <li>ESCP_Title_Dunmer</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

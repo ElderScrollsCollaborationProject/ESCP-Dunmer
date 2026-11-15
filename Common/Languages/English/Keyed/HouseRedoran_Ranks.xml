@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_HouseRedoran>Sponsor:</ESCP_Rank_Mentor_HouseRedoran>
+    <ESCP_Rank_Promote_HouseRedoran>Advance in the House</ESCP_Rank_Promote_HouseRedoran>
+    <ESCP_Rank_Promoted_Text_HouseRedoran>House Redoran honors {0} as {1}. Duty is its own reward.</ESCP_Rank_Promoted_Text_HouseRedoran>
+    <ESCP_Rank_Rally_Title_HouseRedoran>{0} calls on Redoran honor</ESCP_Rank_Rally_Title_HouseRedoran>
+    <ESCP_Rank_Rally_Text_HouseRedoran>{0} reminds every one of {1} on the field of their duty, and none of them flinch.</ESCP_Rank_Rally_Text_HouseRedoran>
+    <ESCP_Rank_InspectionComplete_Commended_HouseRedoran>{0} inspects {1}'s armor and finds it worthy of the House.</ESCP_Rank_InspectionComplete_Commended_HouseRedoran>
+    <ESCP_Rank_InspectionComplete_Reprimanded_HouseRedoran>{0} inspects {1}'s armor and reminds them that neglect shames their ancestors.</ESCP_Rank_InspectionComplete_Reprimanded_HouseRedoran>
+    <ESCP_Rank_PunishmentAssigned_HouseRedoran>{0} sends {1} to sweep ash from the House's halls.</ESCP_Rank_PunishmentAssigned_HouseRedoran>
+
+</LanguageData>

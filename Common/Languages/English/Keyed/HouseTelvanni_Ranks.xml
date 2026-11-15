@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_HouseTelvanni>Master:</ESCP_Rank_Mentor_HouseTelvanni>
+    <ESCP_Rank_Promote_HouseTelvanni>Seek Advancement</ESCP_Rank_Promote_HouseTelvanni>
+    <ESCP_Rank_Promoted_Text_HouseTelvanni>No one in House Telvanni objected loudly enough. {0} is now {1}.</ESCP_Rank_Promoted_Text_HouseTelvanni>
+    <ESCP_Rank_Rally_Title_HouseTelvanni>{0} unleashes Telvanni ambition</ESCP_Rank_Rally_Title_HouseTelvanni>
+    <ESCP_Rank_Rally_Text_HouseTelvanni>{0} reminds every one of {1} on the field that only the strong rise, and they fight to prove it.</ESCP_Rank_Rally_Text_HouseTelvanni>
+    <ESCP_Rank_InspectionComplete_Commended_HouseTelvanni>{0} inspects {1}'s robes and finds nothing to sneer at.</ESCP_Rank_InspectionComplete_Commended_HouseTelvanni>
+    <ESCP_Rank_InspectionComplete_Reprimanded_HouseTelvanni>{0} inspects {1}'s robes and sneers.</ESCP_Rank_InspectionComplete_Reprimanded_HouseTelvanni>
+    <ESCP_Rank_PunishmentAssigned_HouseTelvanni>{0} sends {1} to tend the tower's mushrooms.</ESCP_Rank_PunishmentAssigned_HouseTelvanni>
+
+</LanguageData>

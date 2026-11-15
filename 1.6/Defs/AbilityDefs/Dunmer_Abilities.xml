@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_Dunmer_Ancestors_Wrath</defName>
+        <label>ancestor's wrath</label>
+        <description>The caster speaks the names of their family's dead and lets them answer. For three quarters of a minute, every blow lands with more behind it than one person could manage.</description>
+        <iconPath>UI/Abilities/FireSpew</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <casterMustBeCapableOfViolence>true</casterMustBeCapableOfViolence>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <statBases>
+            <Ability_Duration>45</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <drawAimPie>false</drawAimPie>
+            <requireLineOfSight>false</requireLineOfSight>
+            <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+            <warmupTime>1.0</warmupTime>
+            <range>0</range>
+            <targetable>false</targetable>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>ESCP_Hediff_Dunmer_Ancestors_Wrath</hediffDef>
+                <onlyApplyToSelf>true</onlyApplyToSelf>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>SelfBuff</role>
+                <buffHediff>ESCP_Hediff_Dunmer_Ancestors_Wrath</buffHediff>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+    <AbilityDef Name="ESCP_DunmerAncestralAbilityBase" Abstract="True">
+        <jobDef>CastAbilityOnThingMelee</jobDef>
+        <stunTargetWhileCasting>True</stunTargetWhileCasting>
+        <showPsycastEffects>False</showPsycastEffects>
+        <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+        <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+        <groupDef>ESCP_DunmerRole</groupDef>
+        <warmupEffecter>ESCP_Dunmer_AncestralAbilityWarmup</warmupEffecter>
+        <verbProperties>
+            <verbClass>Verb_CastAbilityTouch</verbClass>
+            <drawAimPie>False</drawAimPie>
+            <range>-1</range>
+            <warmupTime>6.0</warmupTime>
+            <targetParams>
+                <canTargetAnimals>false</canTargetAnimals>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetBuildings>false</canTargetBuildings>
+                <canTargetMechs>false</canTargetMechs>
+                <onlyTargetColonists>true</onlyTargetColonists>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilitySocialInteraction">
+                <interactionDef>ESCP_Dunmer_AncestralKnowledge</interactionDef>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
+        <defName>ESCP_Dunmer_AncestralGuidance</defName>
+        <label>ancestral guidance</label>
+        <description>Call on the family dead to steady another's mind. The target is far less likely to break. Each 10% of the speaker's psychic sensitivity adds 2 hours to the effect, up to five days.</description>
+        <iconPath>UI/Abilities/ESCP_DunmerAncestralGuidance</iconPath>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>ESCP_RaceTools.CompAbilityEffect_GiveAncestralHediff</compClass>
+                <hediffDef>ESCP_Dunmer_AncestralGuidance</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
+        <defName>ESCP_Dunmer_AncestralHealing</defName>
+        <label>ancestral healing</label>
+        <description>Call on the family dead to mend another's body. The target's wounds heal faster. Each 10% of the speaker's psychic sensitivity adds 2 hours to the effect, up to five days.</description>
+        <iconPath>UI/Abilities/ESCP_DunmerAncestralHealing</iconPath>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>ESCP_RaceTools.CompAbilityEffect_GiveAncestralHediff</compClass>
+                <hediffDef>ESCP_Dunmer_AncestralHealing</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
+        <defName>ESCP_Dunmer_AncestralProtection</defName>
+        <label>ancestor guardian</label>
+        <description>Call an ancestor to stand guard over another. The target takes less damage from every source. Each 10% of the speaker's psychic sensitivity adds 2 hours to the effect, up to five days.</description>
+        <iconPath>UI/Abilities/ESCP_DunmerAncestralProtection</iconPath>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>ESCP_RaceTools.CompAbilityEffect_GiveAncestralHediff</compClass>
+                <hediffDef>ESCP_Dunmer_AncestralProtection</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
+        <defName>ESCP_Dunmer_AncestralSight</defName>
+        <label>ancestral sight</label>
+        <description>Open another to the voices of the dead. The target becomes more psychically sensitive. Each 10% of the speaker's psychic sensitivity adds 2 hours to the effect, up to five days.</description>
+        <iconPath>UI/Abilities/ESCP_DunmerAncestralSight</iconPath>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>ESCP_RaceTools.CompAbilityEffect_GiveAncestralHediff</compClass>
+                <hediffDef>ESCP_Dunmer_AncestralSight</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+        </comps>
+    </AbilityDef>
+
+    <AbilityDef ParentName="ESCP_DunmerAncestralAbilityBase">
+        <defName>ESCP_Dunmer_AncestralWisdom</defName>
+        <label>ancestral wisdom</label>
+        <description>Pass on what the family dead learned in life. The target learns skills faster. Each 10% of the speaker's psychic sensitivity adds 2 hours to the effect, up to five days.</description>
+        <iconPath>UI/Abilities/ESCP_DunmerAncestralWisdom</iconPath>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>ESCP_RaceTools.CompAbilityEffect_GiveAncestralHediff</compClass>
+                <hediffDef>ESCP_Dunmer_AncestralWisdom</hediffDef>
+                <onlyBrain>True</onlyBrain>
+                <applicableToMechs>False</applicableToMechs>
+            </li>
+        </comps>
+    </AbilityDef>
+
+</Defs>

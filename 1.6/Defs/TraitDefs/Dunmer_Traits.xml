@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dunmer_Hortator</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Hortator's blood</label>
+                <description>Someone in this family held the line at Red Mountain, and everyone has been reminding this person about it since birth. They fight as though the ancestors were watching.</description>
+                <statOffsets>
+                    <MeleeHitChance>8</MeleeHitChance>
+                    <PainShockThreshold>0.06</PainShockThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dunmer_Temple</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Temple-taught</label>
+                <description>Raised on the Tribunal's lessons and pilgrimages, this person knows healing rites by heart and has seen enough of the sick to stay calm around them.</description>
+                <statOffsets>
+                    <MedicalTendQuality>0.1</MedicalTendQuality>
+                    <PsychicSensitivity>0.1</PsychicSensitivity>
+                </statOffsets>
+                <skillGains>
+                    <Medicine>2</Medicine>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Dunmer_Morag</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Morag Tong manners</label>
+                <description>Their courtesy is perfect and their hands are never far from something sharp. Those who do business with them generally finish it quickly.</description>
+                <statOffsets>
+                    <MeleeDodgeChance>5</MeleeDodgeChance>
+                    <SocialImpact>0.06</SocialImpact>
+                </statOffsets>
+                <skillGains>
+                    <Melee>2</Melee>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>
