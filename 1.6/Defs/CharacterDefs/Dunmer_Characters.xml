@@ -152,7 +152,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(60, 55, 55)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <headTypeDef>ESCP_HeadMerColouredEyes_Male_Average_Normal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>
@@ -176,7 +176,7 @@
             </li>
             <li Class="ESCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(50, 45, 45)</hairColor>
-                <hairDef>ShortCut</hairDef>
+                <hairDef MayRequire="Ludeon.RimWorld.Anomaly">ShortCut</hairDef>
                 <headTypeDef>ESCP_HeadMerColouredEyes_Male_Average_Normal</headTypeDef>
                 <bodyTypeDef>Male</bodyTypeDef>
             </li>

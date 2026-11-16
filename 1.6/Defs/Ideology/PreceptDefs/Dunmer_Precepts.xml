@@ -21,6 +21,9 @@
                     <li>ESCP_Xenotype_Dunmer</li>
                 </xenotypes>
             </li>
+            <li Class="ESCP_RaceTools.RoleRequirement_PsychicSensitivity">
+                <sensitivity>1.2</sensitivity>
+            </li>
         </roleRequirements>
         <roleRequiredWorkTagAny>
             <li>Social</li>

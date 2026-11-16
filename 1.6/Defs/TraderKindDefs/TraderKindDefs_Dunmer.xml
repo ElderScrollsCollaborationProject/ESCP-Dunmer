@@ -60,6 +60,28 @@
                 <tag>ExoticMisc</tag>
             </li>
             <li Class="ESCP.Enlist.StockGenerator_Pawns" />
+            <li Class="StockGenerator_Tag" MayRequire="SirMashedPotato.Ashlands">
+                <tradeTag>Mashed_Ashlands_AshlandsAlcohol</tradeTag>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <countRange>10~30</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="ESCP.DunmerArmory">
+                <thingDef>InsectJelly</thingDef>
+                <countRange>40~100</countRange>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ESCP_Resources_Raw</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>150~500</totalPriceRange>
+            </li>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>ESCP_ElementalSalts</tradeTag>
+                <thingDefCountRange>1~2</thingDefCountRange>
+                <countRange>4~12</countRange>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>ESCP_Bullion</tag>
+            </li>
 
         </stockGenerators>
 

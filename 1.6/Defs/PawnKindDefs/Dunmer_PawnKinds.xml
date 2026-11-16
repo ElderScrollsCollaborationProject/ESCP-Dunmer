@@ -181,6 +181,7 @@
             <li>MedievalBasic</li>
             <li>MedievalMilitary</li>
             <li>Cape</li>
+            <li MayRequire="ESCP.DunmerArmory">ESCP_Dunmer_Chitin</li>
         </apparelTags>
         <requiredWorkTags>
             <li>Violent</li>
@@ -220,6 +221,7 @@
             <li>MedievalBasic</li>
             <li>MedievalMilitary</li>
             <li>Cape</li>
+            <li MayRequire="ESCP.DunmerArmory">ESCP_Dunmer_Chitin</li>
         </apparelTags>
         <requiredWorkTags>
             <li>Violent</li>
@@ -311,6 +313,8 @@
             <li>MedievalBasic</li>
             <li>MedievalMilitary</li>
             <li>Cape</li>
+            <li MayRequire="ESCP.DunmerArmory">ESCP_Dunmer_Chitin</li>
+            <li MayRequire="ESCP.DunmerArmory">ESCP_Dunmer_Bonemold</li>
         </apparelTags>
         <requiredWorkTags>
             <li>Violent</li>
@@ -356,6 +360,7 @@
             <li>MedievalBasic</li>
             <li>MedievalMilitary</li>
             <li>Cape</li>
+            <li MayRequire="ESCP.DunmerArmory">ESCP_Dunmer_Bonemold</li>
         </apparelTags>
         <requiredWorkTags>
             <li>Violent</li>

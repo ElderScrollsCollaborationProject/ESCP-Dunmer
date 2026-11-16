@@ -178,6 +178,44 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_HouseTelvanni</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_HouseTelvanni</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Sadrith Mora</li>
+                    <li>Tel Vos</li>
+                    <li>Tel Mora</li>
+                    <li>Tel Naga</li>
+                    <li>Tel Aruhn</li>
+                    <li>Tel Mithryn</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>AridShrubland</li>
+                    <li>Desert</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_Ashlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_DustplainAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_GrazelandAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_HighlandAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_SwampAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_ForestAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_MarshAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_MeadowAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_VolcanicAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_VolcanicBadlandAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_VolcanicBasaltHillsAshlands</li>
+                    <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_VolcanicGroveAshlands</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

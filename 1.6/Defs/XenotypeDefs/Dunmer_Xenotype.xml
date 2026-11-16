@@ -16,7 +16,16 @@
             <li>FireResistant</li>
             <li>MaxTemp_SmallIncrease</li>
             <li>ESCP_Gene_Dunmer_Beard</li>
+            <li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_AshResistance_Partial</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <heatstrokeResistant>true</heatstrokeResistant>
+                <heatburnResistant>true</heatburnResistant>
+                <heatstrokeDef>Heatstroke</heatstrokeDef>
+                <leatherDef>ESCP_LeatherDunmer</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
 </Defs>
