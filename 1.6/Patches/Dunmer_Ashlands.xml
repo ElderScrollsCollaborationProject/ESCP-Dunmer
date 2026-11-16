@@ -14,12 +14,6 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>Defs/FactionDef[defName="ESCP_Faction_House_Redoran" or defName="ESCP_Faction_House_Telvanni"]/pawnGroupMakers/li/carriers</xpath>
-                    <value>
-                        <Mashed_Ashlands_Guar>8</Mashed_Ashlands_Guar>
-                    </value>
-                </li>
-                <li Class="PatchOperationAdd">
                     <xpath>Defs/TraderKindDef[defName="ESCP_Caravan_Dunmer_Trader"]/stockGenerators</xpath>
                     <value>
                         <li Class="StockGenerator_Tag">
